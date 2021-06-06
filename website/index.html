@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>VIGILANTES</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+		integrity="sha512-apX8rFN/KxJW8rniQbkvzrshQ3KvyEH+4szT3Sno5svdr6E/CP0QE862yEeLBMUnCqLko8QaugGkzvWS7uNfFQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
+		integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/regular.min.css"
+		integrity="sha512-Nqct4Jg8iYwFRs/C34hjAF5og5HONE2mrrUV1JZUswB+YU7vYSPyIjGMq+EAQYDmOsMuO9VIhKpRUa7GjRKVlg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css"
+		integrity="sha512-jQqzj2vHVxA/yCojT8pVZjKGOe9UmoYvnOuM/2sQ110vxiajBU+4WkyRs1ODMmd4AfntwUEV4J+VfM6DkfjLRg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/svg-with-js.min.css"
+		integrity="sha512-W3ZfgmZ5g1rCPFiCbOb+tn7g7sQWOQCB1AkDqrBG1Yp3iDjY9KYFh/k1AWxrt85LX5BRazEAuv+5DV2YZwghag=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/v4-shims.min.css"
+		integrity="sha512-iaLhEHW3p+ZNgkDKBi4zEfH+aWAMGJ7I7njqD3jKnbN0ux4Gkumu2vjuI71YUov20OIPl3R32v8HO+V+6OgbvQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="slimScroll">
+	<header class="between-center">
+		<div class="d-none md-show sm-hide" id="toggleBtn"><a href="#"> <img src="assets/img/hamburger-tablet.svg"></a>
+		</div>
+		<div class="d-none sm-show" id="toggleBtnMobile"><a href="#"> <img src="assets/img/hamburger-mobile.svg"></a></div>
+		<div class="logo-img">
+			<img src="./assets/img/logo-desktop.svg" class="md-hide" alt="THE VIGILANTES" />
+			<img src="./assets/img/logo-tablet.svg" class="d-none md-show sm-hide" alt="THE VIGILANTES" />
+			<img src="./assets/img/logo-mobile.svg" class="d-none sm-show" alt="THE VIGILANTES" />
+		</div>
+		<ul class="md-hide">
+			<li><a href="#">Home</a></li>
+			<li><a href="#project">Project</a></li>
+			<li><a href="#tokenomics">Tokenomics</a></li>
+			<li><a href="#roadmap">Roadmap</a></li>
+			<li><a href="#joinus">Team</a></li>
+			<!-- <li><a href="./whitepaper.pdf" target="_blank">Whitepaper</a></li>f -->
+		</ul>
+	</header>
+	<div class="menu-container text-color-pink d-none" id="toggleMenu">
+		<p class="btn-close" id="btnClose"><i class="fa fa-times"></i></p>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#project">Project</a></li>
+			<li><a href="#tokenomics">Tokenomics</a></li>
+			<li><a href="#roadmap">Roadmap</a></li>
+			<li><a href="#joinus">Lottery</a></li>
+			<!-- <li><a href="./whitepaper.pdf" target="_blank">Whitepaper</a></li> -->
+		</ul>
+	</div>
+	<main>
+		<div class="timer">
+			<div class="d-none sm-show md-hide">
+				<iframe id="smallcountdown" width="304" height="156" src="https://w2.countingdownto.com/3642900"
+					frameborder="0"></iframe>
+			</div>
+			<div class="sm-hide md-show">
+				<iframe id="bigcountdown" width="700" height="360" src="https://w2.countingdownto.com/3642718"
+					frameborder="0"></iframe>
+			</div>
+		</div>
+		<div class="intro px-60">
+			<div class="intro-left">
+				<p class="text-bold text-right text-24">THE MOST INSANELY SKILLED TEAM IN BINANCE SMART CHAIN</p>
+				<p class="text-extra text-118 text-right text-color-pink">INTRODUCES</p>
+				<p class="text-bolder text-78 text-right">VIGILANTES</p>
+				<p class="intro-text">We are really excited to introduce you TheVigilantes, the first token based <span
+						class="text-color-pink text-bold">gaming company</span>
+					(TheVigilantes holdings LCC is already registered in US). Our goal is to increase the value of our <span
+						class="text-color-pink text-bold">tokens</span> by
+					developing
+					great gaming products. NFTs: Our company will offer you the best and coolest NFT assets out there! We will
+					develop
+					NFTs of heroes that you will be able to use in our video and board games. Marketplace: is a part of the
+					Vigilantes
+					real <span class="text-color-pink text-bold">USE CASE</span>! In our NFT marketplace you will be able to buy
+					&
+					sell NFTs
+					but also trade them with others from
+					the
+					community!</p>
+				<div class="intro-btns">
+					<button type="button" class="btn-intro">
+						<p class="btn-intro-text">BscScan</p>
+						<i class="bg-color-pink"><img src="assets/img/thunder-black.svg"></i>
+					</button>
+					<button type="button" class="btn-intro">
+						<p class="btn-intro-text">Chart</p>
+						<i class="bg-color-pink"><img src="assets/img/thunder-black.svg"></i>
+					</button>
+					<button type="button" class="btn-intro">
+						<p class="btn-intro-text">Buy Token</p>
+						<i class="bg-color-pink"><img src="assets/img/thunder-black.svg"></i>
+					</button>
+				</div>
+			</div>
+			<img src="./assets/img/succubus.png" alt="wizard" />
+			<div class="intro-right">
+				<p class="w-full text-left">BEAUTIFUL | CUTE | DEADLY</p>
+				<p class="text-120 text-118 text-extra text-color-pink">LILITH</p>
+				<div class="intro-right-content">
+					<p class="text-color-pink icon-bolt">
+						<img src="assets/img/thunder-icon.svg">
+						<span class="text-14">RUMORS</span>
+					</p>
+					<p class="w-full text-12">"Adam's first wife, who was created at the same time and from the same clay as
+						Adam"
+					</p>
+				</div>
+				<button class="text-color-pink text-bolder btn-buy-phoebe md-hide">Buy LILITH NFT</button>
+			</div>
+			<button class="btn-buy-selene d-none md-show">Buy LILITH NFT</button>
+		</div>
+		<div class="links px-60">
+			<span class="lg-hide">Are you ready for fun?</span>
+			<img src="./assets/img/line.svg" class="lg-hide" alt="" />
+			<div class="read-more lg-hide">
+				<span class="text-color-pink">Read More</span>
+				<i class="fa fa-chevron-down"></i>
+			</div>
+			<img src="./assets/img/line.svg" class="lg-hide" alt="" />
+			<div class="link-social">
+				<a href="https://t.me/TheVigilantesOfficial" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+				<a href="" target="_blank"><i class="fab fa-discord"></i></a>
+				<a href="" target="_blank"><i class="fa fa-twitch"></i></a>
+				<a href="https://www.twitter.com/bsc_vigilantes" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a href="" target="_blank"><i class="fa fa-reddit-alien"></i></a>
+			</div>
+		</div>
+		<div class="project px-60" id="project">
+			<p class="text-165 text-color-pink text-large">PROJECT</p>
+			<div class="project-content text-color-darkblue">
+				<p class="project-text">Our purpose is simple. Some dedicated professionals joined together building a team
+					that
+					allows you to jump into an incredible & fun project leaving behind all the crypto scams. Sounds good?</p>
+				<p class="project-text">The Vigilantes NFTs and Games will be based upon our beloved characters. Characters
+					can
+					be
+					superheroes, video game champions, cartoons, anime and more! We will give life to the beloved Vigilante
+					characters
+					& create incredible NFTs for you. You will only be able to buy & hold Vigilantes NFTs in limited amounts
+					keeping
+					everything rare & unique</p>
+
+				<p class="text-32 text-color-pink text-bolder">Are you hyped enough? Just wait for the best part!</p>
+				<p class="project-text">We are going to develop a <strong class="text-color-pink">mobile card game
+						app</strong>!
+					Based on your holdings, you will have your NFTs as cards in your e-deck and you will be able to battle with
+					other members in our app! You will be able to use ONLY the NFTs that you hold! So build your deck carefully
+					guys!</p>
+				<p class="project-text"><strong class="text-color-pink">Launching Hard Copy Decks</strong> for real-world
+					battles and events. You will be able to buy hard copy cards from our online-store. Guys, come on, aren't you
+					still excited about it? Ok let's go to the final step!</p>
+				<p class="project-text">The best players in our app will compete in <strong
+						class="text-color-pink">E-SPORTS</strong> events with huge rewards! Events will be live-streamed on Twitch
+					&
+					other platforms! That's how we deploy a token! That's what it means to have a real use case for the
+					community!
+				</p>
+			</div>
+		</div>
+		<div class="wizzards px-60">
+			<img src="./assets/img/octopussy.png" alt="" />
+			<img src="./assets/img/shroom.png" alt="" />
+			<img src="./assets/img/mad_doc.png" alt="" />
+		</div>
+		<div class="supply" id="tokenomics">
+			<div class="total-supply">
+				<div class="supply-container">
+					<div class="supply-item text-36">
+						<p class="text-bolder text-center">TOTAL SUPPLY</p>
+						<p class=" text-center">10,000,000,000 tokens</p>
+					</div>
+					<div class="supply-item text-24">
+						<p class="text-bolder text-center text-36">Anti-Dump & Anti-Bot Mechanism</p>
+						<p><span class="supply-text-title">~30 Minutes Sell:</span>40% burn (30% Back to the Liquidity Pool | 10%
+							Redistributed to Holders)</p>
+						<p><span class="supply-text-title">~45 Minutes Sell:</span>32% burn (24% Back to the Liquidity Pool | 8%
+							Redistributed to Holders)</p>
+						<p><span class="supply-text-title">~1 hour Sell:</span>24% burn (18% Back to the Liquidity Pool | 6%
+							Redistributed to Holders)</p>
+						<p><span class="supply-text-title">~2 hours Sell:</span>16% burn (12% Back to the Liquidity Pool | 4%
+							Redistributed to Holders)</p>
+						<p><span class="supply-text-title">~Standard burn:</span>10% burn (6% Back to the Liquidity Pool | 2%
+							Redistributed to Holders) | 2% Vigilante Concession)</p>
+					</div>
+					<div class="supply-item text-24">
+						<p class="text-bolder text-center text-36">MAX-HOLDING PER WALLET</p>
+						<p class=" text-center">1% of the whole circulation</p>
+					</div>
+				</div>
+			</div>
+			<div class="supply-imgs">
+				<img src="./assets/img/ninja.png" class="img-assasin" align="">
+				<img src="./assets/img/time-md.svg" class="d-none md-show" alt="" />
+			</div>
+		</div>
+		<div class="timeline text-24" id="roadmap">
+			<div class="timeline-content">
+				<div class="phase">
+					<p class="phase-title">Phase 1</p>
+					<div class="phase-icon">
+						<i class="bg-color-pink"><img src="assets/img/thunder-white.svg"></i>
+					</div>
+					<div class="phase-description">
+						<p>Launching Website</p>
+						<p>Deploying Tokenomics</p>
+						<p>Presale</p>
+						<p>Contract deployed and available to purchase on pancakeswap</p>
+					</div>
+				</div>
+				<div class="phase">
+					<p class="phase-title">Phase 2</p>
+					<div class="phase-icon">
+						<i class="bg-color-pink"><img src="assets/img/thunder-white.svg"></i>
+					</div>
+					<div class="phase-description">
+						<p>Introducing Initial NFT creations</p>
+						<p>Listings in Coingeko & CoinMarketCap</p>
+						<p>Huge Marketing Plans & partnerships with Influencers</p>
+						<p>Development & Launching of our NFT Marketplace</p>
+						<p>Initial NFT transactions in NFT Marketplace</p>
+					</div>
+				</div>
+				<div class="phase">
+					<p class="phase-title">Phase 3</p>
+					<div class="phase-icon">
+						<i class="bg-color-pink"><img src="assets/img/thunder-white.svg"></i>
+					</div>
+					<div class="phase-description">
+						<p>Mobile App Development for iOS & Android</p>
+						<p>Tech Alpha For TheVigilantes Mobile App</p>
+						<p>Tech Beta For TheVigilantes Mobile App</p>
+						<p>Mobile App Available in Play Store & in App Store</p>
+					</div>
+				</div>
+				<div class="phase">
+					<p class="phase-title">Phase 4</p>
+					<div class="phase-icon">
+						<i class="bg-color-pink"><img src="assets/img/thunder-white.svg"></i>
+						<span class="soon">SOON MORE</span>
+					</div>
+					<div class="phase-description">
+						<p>NFT Boost Cards & Talents for existing NFTs</p>
+						<p>Unique NFT card for each Vigilant - 1 card will only be available for each champion!</p>
+						<p>Organizing the 1st E-sport Event</p>
+					</div>
+				</div>
+			</div>
+			<div class="timeline-title md-hide"><img src="assets/img/timeline-title.svg" alt="" /></div>
+		</div>
+		<div class="team" id="team">
+			<div class="footer-title text-101 text-extra text-color-pink text-align-center">TEAM & PARTNERSHIP</div>
+			<div class="team-members">
+				<div class="member">
+					<img src="assets/img/avatar/Ellipse6.png" alt="" />
+					<p class="text-color-pink text-32">Founder</p>
+					<p class="text-32 text-bold">JACOB</p>
+				</div>
+				<div class="member">
+					<img src="assets/img/avatar/Ellipse8.png" alt="" />
+					<p class="text-color-pink text-32">CFO</p>
+					<p class="text-32 text-bold">JOSH</p>
+				</div>
+				<div class="member">
+					<img src="assets/img/avatar/Ellipse9.png" alt="" />
+					<p class="text-color-pink text-32">Head Developer</p>
+					<p class="text-32 text-bold">JOHN</p>
+				</div>
+				<div class="member">
+					<img src="assets/img/avatar/Ellipse10.png" alt="" />
+					<p class="text-color-pink text-32">Head Illustrator</p>
+					<p class="text-32 text-bold">BEATRICE</p>
+				</div>
+				<div class="member">
+					<img src="assets/img/avatar/Ellipse11.png" alt="" />
+					<p class="text-color-pink text-32">Video Editor/Animator</p>
+					<p class="text-32 text-bold">JAHH</p>
+				</div>
+				<div class="member">
+					<img src="assets/img/avatar/Ellipse16.png" alt="" />
+					<p class="text-color-pink text-32">Graphics Team Manager</p>
+					<p class="text-32 text-bold">RICO</p>
+				</div>
+				<div class="member">
+					<img src="assets/img/avatar/Ellipse19.png" alt="" />
+					<p class="text-color-pink text-32">Lead Game Engineer & UI UX</p>
+					<p class="text-32 text-bold">BILL</p>
+				</div>
+			</div>
+			<div class="partnership">
+				<div class="partnership-title">
+					Music partnership with MIB
+					<img src="assets/img/mib-desktop.svg" alt="" />
+				</div>
+				<img src="assets/img/cool_guy.png" alt="" />
+			</div>
+		</div>
+	</main>
+	<footer id="joinus">
+		<div class="footer-title text-101 text-extra text-color-pink">JOIN OUR COMMUNITY</div>
+		<div class="footer-subtitle text-32">Be part of the most exciting & legit token in the crypto world!</div>
+		<div class="subscribe text-32">
+			<label for="email">SUBSCRIBE TO NEWSLETTER</label>
+			<div class="email-box">
+				<input type="email" name="email" class="email" />
+				<a href="#"><img src="./assets/img/subscription.svg" alt="" /></a>
+			</div>
+		</div>
+		<div class="text-24 footer-text">Many exciting things will be available to our beloved commuting<br />Lottery with
+			exciting gifts | Early access to NFTs | News | Upcoming Events</div>
+		<div class="link-social">
+			<a href="https://t.me/TheVigilantesOfficial" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+			<a href="" target="_blank"><i class="fab fa-discord"></i></a>
+			<a href="" target="_blank"><i class="fa fa-twitch"></i></a>
+			<a href="https://www.twitter.com/bsc_vigilantes" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a href="" target="_blank"><i class="fa fa-reddit-alien"></i></a>
+		</div>
+		<p class="last-para">
+			This website does not constitute an offer to buy or sell a security. This website is for informational purposes
+			only and contains forward looking statements. Our plans are not promises but show a road map of what we would like
+			to achieve. If you decide to join our group and purchase Vigilantes tokens or NFTS, more definitive information
+			and agreements will be given to you before your purchase is allowed.
+		</p>
+	</footer>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			var head = $("#bigcountdown").contents().find("head");
+			console.log(head)
+			var css = '<style type="text/css">' +
+				'.demo img {display:none}; ' +
+				' </style> ';
+			$(head).append(css);
+
+			$('#toggleBtn').click(
+				function () {
+					$('#toggleMenu').toggle();
+					$('header').toggle();
+					$('main').toggle();
+					$('footer').toggle();
+				}
+			);
+			$('#toggleBtnMobile').click(
+				function () {
+					$('#toggleMenu').toggle();
+					$('header').toggle();
+					$('main').toggle();
+					$('footer').toggle();
+				}
+			);
+			$('#btnClose').click(
+				function () {
+					$('#toggleMenu').toggle();
+					$('header').toggle();
+					$('main').toggle();
+					$('footer').toggle();
+				}
+			);
+			$('#toggleMenu a').click(
+				function () {
+					$('#toggleMenu').toggle();
+					$('header').toggle();
+					$('main').toggle();
+					$('footer').toggle();
+				}
+			);
+		})
+	</script>
+</body>
+
+</html>
